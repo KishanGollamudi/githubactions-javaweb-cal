@@ -263,17 +263,3 @@ Once the workflow runs successfully:
   👉 [http://98.81.123.228:8080/webapp-add/](http://98.81.123.228:8080/webapp-add/)
 
 ---
-
-### 👨‍💻 Author
-
-**Kishan Gollamudi**
-DevOps Engineer | Cloud & CI/CD Enthusiast
-🔗 [GitHub Repository](https://github.com/mrtechreddy/Java-Web-Calculator-App)
-
-```
-
----
-
-Would you like me to include a **minimal architecture diagram (text or image placeholder)** at the top of the README — showing the flow from GitHub → SonarQube → Nexus → Tomcat?  
-It would make the README visually stronger and recruiter-friendly.
-```
