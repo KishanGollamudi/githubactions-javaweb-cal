@@ -31,10 +31,21 @@ Everything is automated — from **code commit** to **deployment**.
 ## ⚙️ 3. Infrastructure Requirements
 | Component | Purpose | Example |
 |------------|----------|----------|
-| Source Repository | Application code | [GitHub Repo]() |
+| Source Repository | Application code | [GitHub Repo](https://github.com/KishanGollamudi/Java-Web-Calculator-App.git) |
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9ad64644-444d-499f-bb16-39ed72ac7259" />
+
 | SonarQube Server | Code analysis | http://3.139.87.2:9000 |
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/0efbe293-0a48-4c02-b919-181f43d110fb" />
+<img width="1920" height="1080" alt="6" src="https://github.com/user-attachments/assets/b2e70c15-00d7-4431-8942-581745874cfb" />
+
 | Nexus Repository | Artifact storage | http://18.209.9.207:8081/repository/maven-releases/ |
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/06ff071b-5ad0-46ba-9d68-cb29d4932f07" />
+<img width="1920" height="1080" alt="4" src="https://github.com/user-attachments/assets/ff879bfe-fd16-4b0c-91f3-f2659a8f69b4" />
+
 | Tomcat Server | Application hosting | http://98.81.123.228:8080/manager/text |
+<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/c8c19317-687f-474d-887d-1bf6f440ba9e" />
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/ff3143c1-5fcf-4fc7-b65c-45280fcc34c9" />
+
 
 ---
 
@@ -50,8 +61,9 @@ Store all credentials securely as **GitHub Secrets** under
 | NEXUS_PASS | Nexus password | admin123 |
 | TOMCAT_USER | Tomcat Manager username | admin |
 | TOMCAT_PASS | Tomcat Manager password | admin123 |
-
 ---
+<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/109ca7c0-89f3-48f5-b3ab-603cd3b4ba3a" />
+
 
 ## 🧩 5. Repository Folder Structure
 ```
@@ -205,6 +217,8 @@ You can trigger the workflow in two ways:
 * **Manual:** Go to **Actions → Java CI/CD - SonarQube, Nexus, Tomcat (Full Clean Deploy)** → Click **Run workflow**
 
 ---
+<img width="1920" height="1080" alt="11" src="https://github.com/user-attachments/assets/c0bb6d5a-5e41-4baf-9aa2-dc4d64ca6759" />
+<img width="1920" height="1080" alt="12" src="https://github.com/user-attachments/assets/01d71a97-d50a-478d-a9d6-c92efc25e6c4" />
 
 ## ✅ 8. Verification Checklist
 
@@ -217,6 +231,9 @@ You can trigger the workflow in two ways:
 | App URL   | Returns HTTP 200 OK           |
 
 ---
+<img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/d04a34bb-9922-42dd-94f2-40a8a024bfda" />
+<img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/00287542-5504-4241-8524-3ef4ee3c273e" />
+<img width="1920" height="1080" alt="15" src="https://github.com/user-attachments/assets/c27de903-6976-44dd-85f0-fb9a461acb02" />
 
 ## ⚠️ 9. Troubleshooting
 
@@ -254,12 +271,8 @@ You can trigger the workflow in two ways:
 
 ## 🧱 12. Expected Output
 
-Once the workflow runs successfully:
-
-* ✅ GitHub Actions shows a green build status
-* 📦 New artifact appears in **Nexus Repository**
-* 🚀 **Tomcat** hosts the latest build
-* 🌐 Browser shows updated version of the app at
-  👉 [http://98.81.123.228:8080/webapp-add/](http://98.81.123.228:8080/webapp-add/)
+<img width="1920" height="1080" alt="16" src="https://github.com/user-attachments/assets/98093c67-825f-4125-be50-8d185a71f942" />
+<img width="1920" height="1080" alt="20" src="https://github.com/user-attachments/assets/51021df7-877c-4d95-af40-3c966bba69b7" />
+<img width="1920" height="1080" alt="21" src="https://github.com/user-attachments/assets/d5c0b837-4897-43ea-8831-b3a6b5c8bdfa" />
 
 ---
